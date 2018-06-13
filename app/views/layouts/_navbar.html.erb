@@ -1,0 +1,21 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><%= image_tag "Solart-logo.jpg" %></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav mx-auto"> <!-- Center Navbar elements -->
+		       <li class="nav-item">
+		          <%= link_to 'Home', root_path, class: "nav-link #{yield(:home_active)}" %>  <!--pages_home_path -->
+		        </li>
+		        <li class="nav-item">
+		          <%= link_to 'About', pages_about_path, class: "nav-link #{yield(:about_active)}" %>
+		        </li>
+		        <li class="nav-item">
+		          <%= link_to 'Contact', pages_contact_path, class: "nav-link #{yield(:contact_active)}" %>
+		        </li>
+		    </ul>
+		 </div>
+	</div>	
+</nav>

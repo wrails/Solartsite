@@ -1,2 +1,13 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<% provide(:page_title, 'Home') %>
+<% provide(:home_active, 'active') %> 
+<div class="carousel-inner">
+	<div class="carousel-item active">		
+		<img class="irc_mi" src="https://media.giphy.com/media/ctGFLebG1AqK4/giphy.gif" onload="typeof google==='object'&amp;&amp;google.aft&amp;&amp;google.aft(this)" width="353" height="353" style="margin-top: 0px;" alt="Related image">
+
+		<div class="carousel-caption sun">
+		    <h1 class="display-2 solart"><%= link_to 'SOLART', pages_about_path %></h1>
+		    <h3> Software and Technology </h3>
+		    <%= link_to "Discover", pages_about_path , :class => "btn btn-outline-light btn-lg" %>
+		</div> 		
+	</div>
+</div> 

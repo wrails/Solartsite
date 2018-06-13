@@ -1,5 +1,8 @@
 class PagesController < ApplicationController
   def home
+    respond_to do |format|
+      format.html { render :layout => 'home' }
+    end
   end
 
   def contact
