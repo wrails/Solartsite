@@ -1,0 +1,114 @@
+<%= simple_form_for(@form_message, html: {class: 'form-horizontal justify-content-center'}, wrapper: :horizontal_form) do |f| %> 
+  <p class="contact"><b>Note:</b> Fields marked with an asterisk (*) MUST be completed </p>
+  <%= f.input :name,  autofocus: true %>      
+  <%= f.input :email %>     
+  <%= f.input :company %>     
+  <%= f.input :subject %>     
+  <%= f.input :phone %>     
+  <%= f.input :body, as: :text %>
+  <div class= "hidden">
+    <%= f.input :teleno, :hint => 'Leave this field blank!', :placeholder => "For Bots Only! If you are a human leave this field blank!" %>
+  </div>
+
+  <%= f.button :submit %>
+  
+<% end %>
+
+----------------------- WORKS ---------------------
+
+  <%= form_with(model: form_message, local: true) do |form| %>
+  <% if form_message.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(form_message.errors.count, "error") %> prohibited this form_message from being saved:</h2>
+
+      <ul>
+      <% form_message.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :form_message_name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email, id: :form_message_email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :company %>
+    <%= form.text_field :company, id: :form_message_company %>
+  </div>
+
+  <div class="field">
+    <%= form.label :subject %>
+    <%= form.text_field :subject, id: :form_message_subject %>
+  </div>
+
+  <div class="field">
+    <%= form.label :phone %>
+    <%= form.text_field :phone, id: :form_message_phone %>
+  </div>
+
+ <div class="field hidden">
+    <%= form.label :teleno %>
+    <%= form.text_field :teleno, id: :form_message_phone %>
+  </div>
+  <div class="field">
+    <%= form.label :body %>
+    <%= form.text_area :body, id: :form_message_body %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
+
+
+--------------------------------------Works but not in use (SHOW) -----------
+
+<p>
+  <strong>Name:</strong>
+  <%= @form_message.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @form_message.email %>
+</p>
+
+<p>
+  <strong>Company:</strong>
+  <%= @form_message.company %>
+</p>
+
+<p>
+  <strong>Subject:</strong>
+  <%= @form_message.subject %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @form_message.phone %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @form_message.body %>
+</p>
+
+
+
+------------------------------------------ NOtice Works
+
+ <% if notice %>
+    <div class="alert alert-success" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span></button>
+      <%= notice %>
+    </div>
+  <% end %>

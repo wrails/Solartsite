@@ -1,0 +1,35 @@
+<h3><%= @form_message.subject %></h3>
+<!-- Put this on a table -->
+<br>
+<p>
+	Dear <%= @form_message.name.capitalize %>, <!-- Gets the name from form -->
+<br>
+<p>
+	Thank you very much for  getting intouch with us.
+	<br>
+	<br>
+	We understand you require some information in regards to <i><%= @form_message.subject %></i>.
+	<br>
+	<br>
+	We will get back to you within the next 12h. 
+</p>
+<br>
+	Kind regards
+<br>
+<br>
+	Antonio Garcia
+<br>
+	Director
+<br>
+<br>
+<div class="row">
+	<%= image_tag(attachments['Solart-logo.jpg'].url) %>	
+	<p style="text-decoration:none" > 4B PARK CLOSE 
+	<br>OX16 0SX 
+	<br>BANBURY
+	<br>UK
+	</p> 
+	<br>
+	Phone: <a href="tel:07821263668">07821263668</a>	
+</div>
+

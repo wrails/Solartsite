@@ -1,0 +1,39 @@
+<%= render 'layouts/flash_notice_alert' %>
+<div class="container-index"> 
+<%= render 'layouts/current_user' %> 
+<br>
+<br>
+<h1>Form Messages</h1>
+<br>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Company</th>
+      <th>Subject</th>
+      <th>Phone</th>
+      <th>Body</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @form_messages.each do |form_message| %>
+      <tr>
+        <td><%= form_message.name %></td>
+        <td><%= form_message.email %></td>
+        <td><%= form_message.company %></td>
+        <td><%= form_message.subject %></td>
+        <td><%= form_message.phone %></td>
+        <td><%= form_message.body %></td>       
+        <td><%= link_to 'Show', form_message %></td>
+        <td><%= link_to 'Edit', edit_form_message_path(form_message) %></td>
+        <td><%= link_to 'Destroy', form_message, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+</div>

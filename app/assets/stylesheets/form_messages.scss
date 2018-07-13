@@ -1,0 +1,133 @@
+/*Logo colors
+background-color: #4e6f8ce8
+color: #e8c043
+*/
+
+h3.contacth3 {
+    text-align: center !important;
+    margin-top: 10%;
+    color:  #4e6f8ce8;
+}
+/*a.nav-link.active.purple {
+    color: #e800ff !important;
+}*/
+.orange {
+  color:  #bd9412 !important;
+}
+p.contact {
+    color: #4e6f8ce8;
+    margin-bottom: 3rem !important; 
+}
+form#new_form_message {
+    justify-content: center !important;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 4%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.send {
+    margin-bottom: 1% !important;
+    margin-top: 10% !important;
+    color: #fff;
+    background-color: #4e6f8ce8 !important;
+    border-color: #4e6f8ce8 !important;
+}
+abbr[title], abbr[data-original-title] {
+    text-decoration: none !important;
+}
+.simple_form label {
+    color: #4e6f8ce8 !important;
+}
+.form-control {
+  border-bottom: 1px solid #4e6f8ce8 !important;
+  border-top-color: white !important;  
+  border-right-color: white !important;
+  border-left-color: white !important;
+  border-radius: 0rem !important;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  //box-shadow: 0px 1px 0px 0px #ddc0ff;
+}
+.hidden { 
+display: none; 
+}
+
+.btn:not(:disabled):not(.disabled) {
+   margin-bottom: 8%;
+}
+.btn-back{
+    color: #4e6f8ce8 !important;
+    background-color: white !important;
+    background-image: none;
+    border-color: #4e6f8ce8 !important;
+    margin-top: 9% !important;
+}
+
+.btn-back:hover {
+    background-color: #4e6f8ce8 !important;
+    border-color: #5e4f7e;
+    color : #3bff00 !important;
+}
+
+/*------Index Form messages ------*/
+.container-index {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: auto;
+}
+/*---Media Queries --*/
+@media (min-width: 1100px) and (orientation: landscape){
+  .centered {
+      top: 75% !important;
+  }
+}
+@media (min-width: 1020px) { 
+  div#notice {
+    font-size: 95% !important;
+  }
+}
+@media (max-width: 992px) {
+  div#notice {
+    font-size: 80%;
+  }
+}
+@media (max-width: 764px) {  
+   
+}
+@media (max-width: 731px)  and (orientation : landscape){
+  div#notice {
+    font-size: 80%;
+  }
+}
+@media (max-width: 667px)  and (orientation : landscape){ 
+  div#notice {
+    font-size: 79%;
+  }
+}
+@media (min-width: 576px){
+    .col-sm-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    }
+    div#notice {
+    font-size: 70%;
+  }
+}
+@media (max-width: 414px) and (orientation : portrait) { 
+  div#notice {
+    font-size: 80%;
+}
+ 
+}
+@media (max-width: 375px) and (orientation : portrait) { 
+  div#notice {
+    font-size: 55%;
+  }
+}
+@media (max-width: 360px) and (orientation : portrait) {  
+  div#notice {
+    font-size: 60%;
+  }
+}

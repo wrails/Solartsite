@@ -1,0 +1,19 @@
+<!-- This is the new Contact page -->
+<% provide(:page_title, 'Contact') %>
+<% provide(:contact_active, 'active') %>
+<br>
+<%= simple_form_for(@form_message, html: {class: 'form-horizontal justify-content-center'}, wrapper: :horizontal_form) do |f| %> 
+  <p class="contact"><b>Note:</b> Fields marked with asterisk (*) MUST be completed </p>
+  <%= f.input :name,  autofocus: true %>      
+  <%= f.input :email %>     
+  <%= f.input :company %>     
+  <%= f.input :subject %>     
+  <%= f.input :phone %>     
+  <%= f.input :body, as: :text %>
+  <div class= "hidden">
+    <%= f.input :teleno, :hint => 'Leave this field blank!', :placeholder => "For Bots Only! If you are a human leave this field blank!" %>
+  </div>
+  <div class="form-actions text-center">
+    <button type="submit" class="btn btn-primary btn-lg send">Send</button>
+  </div>
+<% end %>

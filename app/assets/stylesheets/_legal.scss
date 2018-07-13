@@ -1,0 +1,10 @@
+.container.legal {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+@media (min-width: 1200px){
+	.container {
+	    max-width: 750px !important;
+	}
+}

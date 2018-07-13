@@ -1,3 +1,23 @@
 .navbar {
     opacity: 0.9
 } 
+
+li.nav-item {
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+#animated-logo {
+    margin-left: 20px;
+}
+
+.nav-link{
+    color: primary-color-light !important;
+	 font-size: 17px;
+	 font-weight: 500;
+    &.active {
+      color: #4e6f8ce8 !important; // Changing the color when the tab/link is active
+    }
+
+}

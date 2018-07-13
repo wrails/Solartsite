@@ -1,0 +1,907 @@
+
+================= Removed from about =======================
+
+Below h4.top-banner
+/*    
+.centered a {
+  color: white;
+  font-size: 400%;
+  text-transform: 100%;
+  text-shadow: 1px 1px 15px #000;
+}
+.centered h3{
+  color: white;
+  font-size: 350%;
+  font-weight: 500;
+  text-transform: 100%;
+  text-shadow:1px 1px 10px #000;
+}
+.carousel-caption {
+  position: absolute;
+  top:60%;
+  transform: translateY(50%);  
+}
+.caption-h {
+    color: #e8c043 !important;
+    text-shadow: 1px 1px 10px #000 !important;
+}
+.carousel-caption h1 {  
+  font-size: 500%;
+  text-transform: 100%;
+  //text-shadow: -4px 1px 3px #000; 
+}
+.carousel-caption h4 {
+  font-size: 200%;
+  font-weight: 500%;
+  //text-shadow:1px 1px 10px #000;
+  padding-bottom: 1rem;
+}*/
+
+
+---------------------------
+Below wwd-bot-spac
+
+/*.color-block-2 {
+    height: auto;
+    padding: 40px;
+    text-align: center;
+    color: #fff;
+}*/
+
+-------------------------------
+Below orange-logo 
+/*
+.peach-gradient {
+    background: -webkit-linear-gradient(50deg,#ffd86f,#fc6262)!important;
+    background: -o-linear-gradient(50deg,#ffd86f,#fc6262)!important;
+    background: linear-gradient(40deg,#ffd86f,#fc6262)!important;
+}
+.z-depth-2 {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
+}*/
+
+
+----------------------------
+from @media (min-width: 1100px) and (orientation: landscape)
+/*.centered {
+      top: 75% !important;
+  }*/
+
+
+---------------------------------
+from @media (max-width: 731px)  and (orientation : landscape)
+/*.carousel-caption {
+      position: absolute;
+      top: 40%;
+    }
+  .carousel-inner {
+    height: 360px;
+  }
+  .carousel-caption h4 {
+    font-size: 150% !important;
+    font-weight: 500%;
+    text-shadow:1px 1px 10px #000;
+    padding-bottom: 1rem;
+  }*/
+
+---------------------------------
+
+from  @media (max-width: 667px)  and (orientation : landscape){
+
+/*.carousel-caption {
+    position: absolute;
+    top: 45%;
+  }
+  .carousel-inner {
+    height: 360px;
+  }
+  .carousel-caption h4 {
+    font-size: 150% !important;
+    font-weight: 500%;
+    text-shadow:1px 1px 10px #000;
+    padding-bottom: 1rem;
+  }  */
+
+---------------------------------
+from @media (max-width: 414px) and (orientation : portrait)
+  /*.carousel-caption h1 {  
+  font-size: 410% !important;
+  text-transform: 100%;
+  text-shadow: -4px 1px 3px #000; 
+  }
+  .carousel-caption {
+    position: absolute;
+    top: 45%;
+  }
+  .carousel-inner {
+    height: 340px;
+  }
+  .carousel-caption h4 {
+    font-size: 150% !important;
+    font-weight: 500%;
+    text-shadow:1px 1px 10px #000;
+    padding-bottom: 1rem;
+  }*/
+
+
+
+
+---------------------------------
+from @media (max-width: 375px) and (orientation : portrait)
+
+  /*.carousel-caption {
+    position: absolute;
+    top: 40%;
+  }
+  .carousel-inner {
+    height: 340px;
+  }
+  .carousel-caption h4 {
+    font-size: 115% !important;
+    font-weight: 300%;
+    text-shadow:1px 1px 10px #000;
+    padding-bottom: 1rem;
+  }*/
+
+
+
+---------------------------------
+from @media (max-width: 360px) and (orientation : portrait)
+  /*.carousel-caption {
+    position: absolute;
+    top: 40%;
+  }
+  .carousel-inner {
+    height: 270px;
+  }*/
+
+ /*.carousel-caption h4 {
+    font-size: 115% !important;
+    font-weight: 300%;
+    text-shadow:1px 1px 10px #000;
+    padding-bottom: 1rem;
+  }*/
+
+
+---------------------------------
+from /*---Firefox Bug Fix --*/
+/*.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}*/
+
+
+
+
+---------------------------------
+
+
+
+
+
+
+---------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.animation-element.slide-left.testimonial {
+    float: left;
+    width: 47%;
+    margin: 0% 1.5% 3% 1.5%;    
+    padding: 15px;
+    background: none !important; 
+    box-shadow: none !important;
+    border: none !important;
+}
+
+
+
+
+
+
+        <div> 
+          <h4> Our Promise </h4>
+          <p class="lead">With will ensure our developments fully perform on functionality, scalability, security and user experience. 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px)
+
+
+
+@media (min-width: 1026px) {  
+  .sun { 
+  //top:45% !important;  
+  }
+  sun h1 {
+  font-size: 800%;
+  text-transform: 100%;
+  text-shadow: 1px 1px 15px #000;
+  }
+  .sun h3 {
+  font-size: 300%;
+  font-weight: 500%;
+  text-shadow:1px 1px 10px #000;
+  padding-bottom: 1rem;
+  }
+  .btn-primary {
+  background-color: #6648b1;
+  border: 1px solid #563d7c;
+  }
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    //margin-top: 2% !important; 
+    font-size: 2.2rem; 
+  }
+}
+
+
+
+@media (max-width: 1024px) { 
+  .sun { 
+ //top:65% !important;  
+  }
+}
+@media (max-width: 992px) {
+  .social a{
+    font-size: 3.7em;
+    padding:2rem;
+  }
+  .sun { 
+  //top:75%;  
+  }
+}
+
+@media only screen and (min-width: 765px) and (max-width: 771px){
+  .sun { 
+  //top:50% !important;   
+  } 
+}
+
+@media (max-width: 764px) { 
+  .sun { 
+  //top:64%;  
+  }
+  .sun h1 {
+    font-size: 350%;
+  }
+  .sun h3 {
+    font-size: 165%;
+    font-weight: 400%;
+    padding-bottom: .2rem;
+  }
+  .sun .btn {
+  font-size: 95%;
+  padding:8px 14px;
+  }
+  .display-4 {
+  font-size: 200%;
+  }
+  .social a {
+  font-size: 2.5em;
+  padding: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .sun  { 
+  //top:70%;  
+  }
+ .sun  h1 {
+    font-size: 225%;
+  }
+  .sun  h3 {
+    font-size: 90%;
+    font-weight: 400%;
+    padding-bottom: .2rem;
+  }
+  .sun  .btn {
+  font-size: 90%;
+  padding: 4px 8px;
+  }
+  
+  
+
+}
+
+@media (max-width: 480px) {
+  .sun  { 
+  //top:45% !important;  
+  }
+  .sun  h1 {
+    font-size: 165% !important;
+  }
+  .sun  h3 {
+    font-size: 70%;
+    font-weight: 300%;
+    padding-bottom: .2rem;
+  }
+  .sun  .btn {
+  font-size: 80%;
+  padding: 4px 8px;
+  }
+}
+
+
+
+
+
+/*---Media Queries --*/
+/*@media (min-device-width: 768px) and @media (max-device-width: 1025px){
+  
+}*/
+
+
+
+
+
+@media only screen and (min-device-width: 768px) and @media (max-device-width: 1025px) and (orientation : landscape)
+
+ .centered {
+    top: 60%;
+  }
+  .centered a{
+  font-size: 350%;
+  }
+}
+
+
+@media (min-device-width: 768px) and @media (max-device-width: 1025px) and (orientation : portrait){
+
+.centered {  
+    top: 40%;
+  }
+}
+
+
+
+
+
+/*
+@media (min-width: 1025px) and (orientation : landscape){ 
+  .centered {
+    top: 60%;
+  }
+  .centered a{
+  font-size: 350%;
+  }
+}
+@media (max-width: 1024px) and (orientation : portrait) { 
+  .centered {  
+    top: 40%;
+  }
+}
+
+
+@media (min-width: 812px) and (orientation : landscape) {
+  .centered {
+    top: 70%;    
+  }
+  
+}
+
+@media (max-width: 812px) and (orientation : portrait) {
+  .centered {
+    top: 30%;
+  }
+
+}
+
+
+@media (min-width: 768px) and (orientation : landscape) {
+  .centered {
+    top: 70%;
+  }
+}
+
+@media (max-width: 768px) and (orientation : portrait) {
+  .centered {
+    top: 40%;
+  }
+}
+
+
+/* @media (min-device-width: 768px) and (orientation : landscape) {
+  .centered {
+    top: 70%;
+  }
+}*/
+
+
+@media (max-width: 375px) and (orientation : portrait) {
+  .centered {
+    top: 25%;
+    font-size: 80%;
+  }
+  .centered a{
+  font-size: 0.5em;
+  }
+}
+*/
+
+
+
+///////////////////////////////////////////////////////////////////////
+  
+/*---Media Queries --*/
+/*@media (min-device-width: 768px) and @media (max-device-width: 1025px){
+  
+}*/
+
+
+@media only screen and (min-device-width: 768px) and @media (max-device-width: 1025px) and (orientation : landscape)
+
+ .centered {
+    top: 60%;
+  }
+  .centered a{
+  font-size: 350%;
+  }
+}
+
+
+@media (min-device-width: 768px) and @media (max-device-width: 1025px) and (orientation : portrait){
+
+.centered {  
+    top: 40%;
+  }
+}
+
+
+
+/*
+@media (min-width: 1025px) and (orientation : landscape){ 
+  .centered {
+    top: 60%;
+  }
+  .centered a{
+  font-size: 350%;
+  }
+}
+@media (max-width: 1024px) and (orientation : portrait) { 
+  .centered {  
+    top: 40%;
+  }
+}
+
+
+@media (min-width: 812px) and (orientation : landscape) {
+  .centered {
+    top: 70%;    
+  }
+  
+}
+
+@media (max-width: 812px) and (orientation : portrait) {
+  .centered {
+    top: 30%;
+  }
+
+}
+
+
+@media (min-width: 768px) and (orientation : landscape) {
+  .centered {
+    top: 70%;
+  }
+}
+
+@media (max-width: 768px) and (orientation : portrait) {
+  .centered {
+    top: 40%;
+  }
+}
+
+/* @media (min-device-width: 768px) and (orientation : landscape) {
+  .centered {
+    top: 70%;
+  }
+}*/
+
+
+@media (max-width: 375px) and (orientation : portrait) {
+  .centered {
+    top: 25%;
+    font-size: 80%;
+  }
+  .centered a{
+  font-size: 0.5em;
+  }
+}
+*/
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////
+
+
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+/*  .centered a {
+  color: white;
+  font-size: 330%;
+  }
+  .centered h3{
+  color: white;
+  font-size: 290% !important;
+  }*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// FadeIn
+/*.animated {
+  background-repeat: no-repeat;
+  background-position: left top;
+  //padding-top:95px;
+  //margin-bottom:60px;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2.3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+ }
+ 
+ @-webkit-keyframes fadeInRight {
+  0% {
+     opacity: 0;
+     -webkit-transform: translateX(20px);
+  }
+  100% {
+     opacity: 1;
+     -webkit-transform: translateX(0);
+  }
+ }
+ 
+@keyframes fadeInRight {
+  0% {
+     opacity: 0;
+     transform: translateX(20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateX(0);
+  }
+ } 
+
+ .fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+
+/*
+p.lead.center-wwd{
+  font-weight: 350;
+  margin-bottom: 6.4%;
+}
+
+p.lead.center-wwd2{
+  font-weight: 350;
+  margin-bottom: 20%;
+}
+*/
+
+/*
+.layer-wwd {
+    background-color: #274a6ab8;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+.btn-hwdi {
+  background-image: none;
+  border-color: #6c757d;
+  color: #fffa32 !important;    
+  background: #10a3d9 !important;
+  border-radius: 3rem !important;
+  padding: 1.2rem !important;
+  font-size: 22px !important;
+  font-weight: 260 !important;
+}
+.btn-hwdi:hover{
+    background-color: #206179 !important;
+    border-color:rgb(94, 79, 126);
+}
+.btn-hwdi:focus{
+    background-color: #206179 !important;
+    border-color:rgb(94, 79, 126);
+}
+.btn-hwdi:active{
+    background-color: #206179 !important;
+    border-color:rgb(94, 79, 126);
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.075) inset, 0 0 8px rgba(114, 96, 153, 0.6);
+    outline: 0 none;
+}
+/*.btn-primary {
+  background-color: red;
+  border: 1px solid #563d7c;
+  
+}*/
+}*/
+---------------------------------------------------
+
+From About
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+html, body {
+  min-height:100%;
+  min-width:100%;
+  font-family: 'Poppins', sans-serif;
+  color: #222;
+}
+.container-fluid.home {
+    padding-right: 0px !important; 
+    padding-left: 0px !important; 
+}
+
+/*gif*/
+img.irc_mi {      
+    width: 100%;
+    height: 100%;
+}
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.hs{
+    font-family: initial !important;
+}
+.centered a {
+  color: white;
+  font-size: 400%;
+  text-transform: 100%;
+  text-shadow: 1px 1px 15px #000;
+}
+.centered h3{
+  color: white;
+  font-size: 350%;
+  font-weight: 500;
+  text-transform: 100%;
+  text-shadow:1px 1px 10px #000;
+}
+.btn-sun {
+  margin-top: 6% !important; 
+} 
+
+  
+/*---Media Queries --*/
+@media (min-width: 1023px) {
+   .centered a {
+  color: white;
+  font-size: 330%;
+  }
+  .centered h3{
+  color: white;
+  font-size: 293% !important;
+  }
+}
+@media (min-width: 1024px) and (orientation : portrait) { 
+  .centered {  
+    top: 40%;
+  }
+ }
+@media (min-width: 1023px) and (orientation : landscape){ 
+  .centered {
+    top: 65% !important;
+  }
+   .centered a {
+  color: white;
+  font-size: 400% !important;
+  }
+  .centered h3 {
+  color: white;
+  font-size: 290% !important;
+  }
+}
+@media (min-width: 812px) and (orientation : landscape) {
+  .centered {
+    top: 80%;
+  }
+  .centered a {
+  color: white;
+  font-size: 200%;
+  }
+  .centered h3 {
+  color: white;
+  font-size: 140%;
+  } 
+}
+@media (max-width: 812px) and (orientation : landscape) {
+  .centered {
+    top: 90%;
+  }
+  .centered a {
+  color: white;
+  font-size: 200%;
+  }
+  .centered h3 {
+  color: white;
+  font-size: 140%;
+  } 
+}
+@media (max-width: 768px) {
+  .centered {
+    top: 40%;    
+  }
+  .centered a{
+  color: white;
+  font-size: 250% !important;
+  }
+  .centered h3{
+  color: white;
+  font-size: 220%;
+  }  
+}
+@media (max-width: 768px) and (orientation : portrait) {
+  .centered {
+    top: 40%;    
+  }
+  .centered a{
+  color: white;
+  font-size: 240%;
+  }
+  .centered h3{
+  color: white;
+  font-size: 210%;
+  }  
+}
+@media (max-width: 736px) and (orientation : landscape) {
+  .centered {
+    top: 80% !important;    
+  }
+  .centered a{
+  color: white;
+  font-size: 200% !important;
+  }
+  .centered h3{
+  color: white;
+  font-size: 170% !important;
+  }  
+}
+@media (max-width: 600px) and (orientation : landscape) { 
+  .centered {  
+    top: 40%;
+  }
+  .centered a{
+  color: white;
+  font-size: 120% !important;
+  }
+  .centered h3{
+  color: white;
+  font-size: 110% !important;
+  } 
+}
+@media (max-width: 414px) and (orientation : portrait) { 
+  .centered {  
+    top: 25%;
+  }
+  .centered a{
+  color: white;
+  font-size: 120% !important;
+  }
+  .centered h3{
+  color: white;
+  font-size: 98%;
+  } 
+}
+@media (max-width: 375px) and (orientation : portrait) { 
+  .centered {  
+    top: 27%;
+  }
+  .centered a{
+  color: white;
+  font-size: 100% !important;
+  }
+  .centered h3{
+  color: white;
+  font-size: 84%;
+  } 
+}
+@media (max-width: 360px) and (orientation : portrait) { 
+  .centered {  
+    top: 30%;
+  }
+  .centered a{
+  color: white;
+  font-size: 50%;
+  }
+  .centered h3{
+  color: white;
+  font-size: 80%;
+  }
+}
+

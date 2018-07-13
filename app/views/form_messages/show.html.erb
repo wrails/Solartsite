@@ -1,0 +1,35 @@
+
+<% provide(:page_title, 'Show-Message') %>
+<% provide(:list_active, 'active') %>
+
+<div class="container">
+  <p>
+    <strong>Name:</strong>
+    <a><%= @form_message.name %></a> 
+  </p>
+  <p>
+    <strong>Email:</strong>
+    <a><%= @form_message.email %></a>
+  </p>
+  <p>
+    <strong>Company:</strong>
+    <a><%= @form_message.company %></a>
+  </p>
+  <p>
+    <strong>Subject:</strong>
+    <a><%= @form_message.subject %></a>
+  </p>
+  <p>
+    <strong>Phone:</strong>
+    <a><%= @form_message.phone %></a>
+  </p>
+  <p>
+    <strong>Body:</strong>
+    <a><%= @form_message.body %></a>
+  </p>
+  <br>
+
+<%= link_to 'Back', form_messages_path %>
+<br>
+<br>
+</div>

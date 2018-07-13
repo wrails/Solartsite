@@ -1,0 +1,9 @@
+.container.privacy {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+@media (min-width: 1200px){
+	.container {
+	    max-width: 760px !important;
+	}
+}
