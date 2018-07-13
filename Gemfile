@@ -60,3 +60,10 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Gems used by Heroku
+group :production do
+   gem 'pg', '~> 1.0' # was added ('~> 1.0')
+   gem 'rails_12factor'
+end
+
