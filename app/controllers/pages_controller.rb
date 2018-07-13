@@ -2,10 +2,6 @@ class PagesController < ApplicationController
 
   before_action :admin_user, except: [:unauthorised]
   def home
-   # Tell Rails what format to render
-   #respond_to do |format|
-   # format.html { render :layout => 'home' }
-   # end
   end
   
   def contact
