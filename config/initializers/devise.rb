@@ -284,4 +284,7 @@ Devise.setup do |config|
 
    # I don't know where to put this thing.
   #config.secret_key = '484dbcce781f8acaebba09c1d751691a9e08d2f5386c4c42d7005a91b33f40f442a0b3b467abbe6db18d98c54f89a29bd59234b6da34bc6fcd41567baf24e65a'
+
+  config.secret_key = "<%= ENV["SECRET_KEY_BASE"] %>" if Rails.env == 'production'
+
 end
