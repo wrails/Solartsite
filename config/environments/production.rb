@@ -89,9 +89,9 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-
-
 # For Production
+
+ config.secret_key_base = ENV["SECRET_KEY_BASE"] # THIS IS THE MOST IMPORTANT FOR HEROKU
 
  config.action_mailer.default_url_options = { :host => 'solarts.herokuapp.com' }
 
@@ -101,6 +101,7 @@ Rails.application.configure do
  # THIS IS MANDATORY TO BE ABLE TO SEND MAILS IN PRODUCTION
  Rails.application.routes.default_url_options[:host] = 'solarts.herokuapp.com'
  config.action_mailer.default :charset => "utf-8"
+
 
 end
 
