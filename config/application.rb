@@ -31,7 +31,6 @@ module Solartsite
 	  authentication: :plain,
 	  enable_starttls_auto: true,
 	  domain: 'gmail.com'  
-
 	  }
 	end
 end
