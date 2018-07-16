@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
 
-  #before_action :admin_user, except: [:unauthorised]
+  before_action :admin_user, except: [:unauthorised]
   def home
   end
   
