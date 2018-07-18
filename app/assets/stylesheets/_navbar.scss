@@ -1,7 +1,10 @@
 .navbar {
     opacity: 0.9
 } 
-
+div#navbarNav {
+    background-color: #3af39f;
+    border: 0.2px solid #d2bfbf;
+}
 li.nav-item {
     padding-left: 30px;
     padding-right: 30px;
