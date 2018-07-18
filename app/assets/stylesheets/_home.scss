@@ -25,6 +25,11 @@ html, body {
   position: relative;
 
 }
+
+img.About_img {
+    height: 310px;
+    width: 1600px;
+  }
 .center_about {
     position: absolute;
     top: 42%;
@@ -35,12 +40,12 @@ html, body {
 h1.top-banner {
     margin-bottom: 0.5rem;
     font-family: initial !important;
-    font-size: 6rem !important;
+    font-size: 6rem;
 }
 h4.top-banner {
   margin-bottom: 0.5rem;
   font-family: initial !important;
-  font-size: 2.5rem !important;
+  font-size: 2.5rem;
 }
 .contated-notice{
   margin-right: 20%;
@@ -225,14 +230,50 @@ hr {
 }
 
 /*---Media Queries --*/
-@media (max-width: 1024px) and (orientation: portrait){
+@media (min-width: 1024px) and (orientation: landscape){
+  img.About_img {
+    height: 400px;
+    width: 1900px;
+  }
   .center_about {
-       top: 29%;
+    top: 30%;
+  }
+  h1.top-banner {
+    font-size: 4rem !important;
+  }
+  h4.top-banner {
+    font-size: 1.8rem !important;
+  }
+
+}
+@media (max-width: 1024px) and (orientation: portrait){
+  img.About_img {
+    height: 370px;
+    width: 1300px;
+  }
+  .center_about {
+    top: 20%;
+  }
+  h1.top-banner {
+    font-size: 4rem !important;
+  }
+  h4.top-banner {
+    font-size: 1.8rem !important;
   }
 }
 @media (max-width: 1024px) and (orientation: landscape){
+  img.About_img {
+    height: 370px;
+    width: 1300px;
+  }
   .center_about {
-       top: 49%;
+    top: 37%;
+  }
+  h1.top-banner {
+    font-size: 4rem !important;
+  }
+  h4.top-banner {
+    font-size: 1.8rem !important;
   }
 }
 @media (min-width: 1020px) {
@@ -254,6 +295,19 @@ hr {
   }
 }
 @media (max-width: 823px)  and (orientation : landscape){
+  img.About_img {
+    height: 250px;
+    width: 900px;
+  }
+  .center_about {
+    top: 39%;
+  }
+  h1.top-banner {
+    font-size: 4rem !important;
+  }
+  h4.top-banner {
+    font-size: 1.8rem !important;
+  }
   .animation-element.slide-left.testimonial img {
     width: 235px;
     height: 235px;
@@ -272,23 +326,44 @@ hr {
   }
 }
 @media (max-width: 768px) and (orientation : portrait) { 
- .center_about {
-       top: 39%;
+ .img.About_img {
+    height: 370px;
+    width: 1300px;
+  }
+  .center_about {
+    top: 27%;
+  }
+  h1.top-banner {
+    font-size: 4rem !important;
   }
   h4.top-banner {
-  font-size: 2rem !important;
+    font-size: 1.8rem !important;
   }
-}
-@media (max-width: 764px) {  
   .display-4 {
   font-size: 200%;
   }
   .social a {
   font-size: 2.5em;
   padding: 1.2rem;
-  }  
+  } 
 }
-@media (max-width: 731px)  and (orientation : landscape){
+@media (max-width: 764px) {  
+   
+}
+@media (max-width: 737px)  and (orientation : landscape){
+  img.About_img {
+    height: 250px;
+    width: 900px;
+  }
+  .center_about {
+    top: 39%;
+  }
+  h1.top-banner {
+    font-size: 3.8rem !important;
+  }
+  h4.top-banner {
+    font-size: 1.6rem !important;
+  }
   .animation-element.slide-left.testimonial img {
     width: 250px;
     height: 250px;
@@ -299,23 +374,66 @@ hr {
   p.lead.center-p {
     font-weight: 350 !important;
     font-size: 1.35rem !important;
+  }
 }
+
+@media (max-width: 640px)  and (orientation : landscape){
+  img.About_img {
+    height: 250px;
+    width: 900px;
+  }
+  .center_about {
+    top: 49%;
+  }
+  h1.top-banner {
+    font-size: 3.8rem !important;
+  }
+  h4.top-banner {
+    font-size: 1.8rem !important;
+  }
+  h1.wwd {
+    padding-top: 15% !important;
+  }
 }
-@media (max-width: 667px)  and (orientation : landscape){
+
+@media (max-width: 576px) and (orientation : landscape) {
+  img.About_img {
+    height: 210px;
+    width: 900px;
+  }.center_about {
+    top: 49%;
+  }
+  h1.top-banner {
+    font-size: 3.5rem !important;
+  }
+  h4.top-banner {
+    font-size: 1.3rem !important;
+  }
  
 }
-@media (min-width: 576px){
-    .col-sm-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-    }
+@media (min-width: 576px) {
+  .col-sm-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  }
+
 }
-@media (max-width: 414px) and (orientation : portrait) { 
+@media (max-width: 414px) and (orientation : portrait) {   
+  img.About_img {
+    height: 260px;
+    width: 500px;
+  }
+  .center_about {
+    top: 25%;
+  }
+  h1.top-banner {
+    font-size: 4rem !important;
+  }
   h4.top-banner {
     margin-bottom: 0.5rem;
     font-family: initial !important;
-    font-size: 1.8rem !important;
-  }
+    font-size: 1.4rem !important;
+  }  
   .lead.wwdi {
       font-size: 1.2rem;
   }
@@ -338,12 +456,23 @@ hr {
 
 }
 @media (max-width: 375px) and (orientation : portrait) { 
+  .center_about {
+    top: 23%;
+  }
+  h1.top-banner {
+    font-size: 3.6rem !important;
+  }
+  h4.top-banner {
+    margin-bottom: 0.5rem;
+    font-family: initial !important;
+    font-size: 1.1rem !important;
+  } 
   .animation-element.slide-left.testimonial img {
     width: 195px;
     height: 200px;
     border-radius: 50%;
     box-shadow: 0px 1px 3px rgba(51, 51, 51, 0.5);
-  }
+  }  
   .lead.wwdi {
   font-size: 1.3rem;
   }
@@ -353,6 +482,8 @@ hr {
   p.lead.mleft {
     margin-left: 2% !important; 
   }
+
+
 
 }
 @media (max-width: 360px) and (orientation : portrait) {  
@@ -372,16 +503,28 @@ hr {
   }
   .lead.wwdi {
   font-size: 1.4rem;
-}
-}
-
-@media (max-width: 360px) and (orientation : portrait) {  
-  .lead.wwdi {
+  }
+ .lead.wwdi {
     font-size: 1.35rem;
   }
 }
 
 @media (max-width: 320px) and (orientation : portrait) {  
+    img.About_img {
+    height: 230px;
+    width: 500px;
+  }
+  .center_about {
+    top: 32%;
+  }
+  h1.top-banner {
+    font-size: 3rem !important;
+  }
+  h4.top-banner {
+    margin-bottom: 0.5rem;
+    font-family: initial !important;
+    font-size: 1.1rem !important;
+  }  
   p.lead.center-p {
     font-size: 1.3rem !important;
   }
