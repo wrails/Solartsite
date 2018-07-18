@@ -26,7 +26,7 @@ html, body {
 
 }
 
-img.About_img {
+.img.About_img {
     height: 310px;
     width: 1600px;
   }
@@ -233,7 +233,7 @@ hr {
 @media (min-width: 1024px) and (orientation: landscape){
   img.About_img {
     height: 400px;
-    width: 1900px;
+    width: 5000px !important;
   }
   .center_about {
     top: 30%;
@@ -244,8 +244,23 @@ hr {
   h4.top-banner {
     font-size: 1.8rem !important;
   }
-
 }
+@media (min-width: 1024px) and (orientation: portrait){
+  mg.About_img {
+    height: 400px;
+    width: 5000px !important;
+  }
+  .center_about {
+    top: 30%;
+  }
+  h1.top-banner {
+    font-size: 4rem !important;
+  }
+  h4.top-banner {
+    font-size: 1.8rem !important;
+  }
+}
+
 @media (max-width: 1024px) and (orientation: portrait){
   img.About_img {
     height: 370px;
