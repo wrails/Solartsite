@@ -2,8 +2,7 @@
     opacity: 0.9
 } 
 div#navbarNav {
-    background-color: #3af39f;
-    border: 0.2px solid #d2bfbf;
+    background-color: #ffffff;
 }
 li.nav-item {
     padding-left: 30px;
@@ -22,9 +21,12 @@ li.nav-item {
     &.active {
       color: var(--main-bg-color) !important; // Changing the color when the tab/link is active
     }
-
 }
 
+a.nav-link.active.orange {
+    font-size: 1.35rem;
+    font-weight: 500;
+}
 /*---Media Queries --*/
 
 @media (max-width: 823px)  and (orientation : landscape){
