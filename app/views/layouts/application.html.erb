@@ -6,27 +6,6 @@
     <%= csrf_meta_tags %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-<script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#237afc"
-    },
-    "button": {
-      "background": "#fff",
-      "text": "#237afc"
-    }
-  },
-  "position": "top",
-  "content": {
-    "message": "We use cookies to ensure that we give you the best experience on our website. By continuing to browse the site you agree to our use of cookies.",
-    "href": pages/cookie_policy
-  }
-})});
-</script>
   </head>
   <body>   
       <%= render 'layouts/navbar' %>       

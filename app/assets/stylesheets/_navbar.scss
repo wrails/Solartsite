@@ -21,3 +21,24 @@ li.nav-item {
     }
 
 }
+
+/*---Media Queries --*/
+
+@media (max-width: 823px)  and (orientation : landscape){
+    img.logo {
+        width: 42px;
+    }
+    nav.navbar.navbar-expand-md.navbar-light.bg-light.sticky-top {
+    height: 45px !important;
+    }
+}
+
+
+@media (max-width: 414px) and (orientation : portrait) { 
+    img.logo {
+        width: 30px;
+    }
+    nav.navbar.navbar-expand-md.navbar-light.bg-light.sticky-top {
+    height: 48px !important;
+    }
+}
