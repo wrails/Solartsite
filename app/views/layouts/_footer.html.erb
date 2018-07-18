@@ -1,14 +1,14 @@
 <footer>
 	<div class="container-fluid">
 		<div class="row text-center">
-			<div class="col-md-4">
+			<div class="col-md-6">
 				<%= image_tag "Solart-logo.jpg" %>
 				<hr class="light">
-				<p> 4B PARK CLOSE </p>
-				<p> OX16 0SX </p>
-				<p> BANBURY, UK </p>	
+				<p> Solart Ltd </p>
+				<p> Banbury, Oxfordshire </p>
+				<p> England </p>	
 			</div>
-			<div class="col-md-4">
+			<!-- <div class="col-md-4">
 				<br>
 				<hr class="light">
 				<h5> Our Hours</h5>
@@ -16,8 +16,8 @@
 				<p> Monday to Friday: 9am - 5pm</p>
 				<p> Saturday: 9am - 2pm </p>
 				<p> Sunday: Closed</p>			
-			</div>
-			<div class="col-md-4">
+			</div> -->
+			<div class="col-md-6">
 				<br>
 				<hr class="light">
 				<h5> Contact Details</h5>
@@ -32,8 +32,9 @@
 				<%= link_to "Legal", pages_legal_path, class: "nav-link #{yield(:legal_active)} d-inline footers" %> | <%= link_to "Privacy Policy", pages_privacy_policy_path, class: "nav-link #{yield(:privacy_policy_active)} d-inline footers" %> | <%= link_to "Cookie Policy", pages_cookie_policy_path, class: "nav-link #{yield(:cookie_policy_active)} d-inline footers" %>
 				</p>
 				<br>
-				<h5>&copy; solartltd.com</h5>		
+				<h5 class="solart-registered"><i>&copy; solartltd.com</i></h5>		
 			</div>
 		</div>
 	</div>
+	<br>
 </footer>

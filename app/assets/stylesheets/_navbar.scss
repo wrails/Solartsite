@@ -17,7 +17,7 @@ li.nav-item {
 	 font-size: 17px;
 	 font-weight: 500;
     &.active {
-      color: #4e6f8ce8 !important; // Changing the color when the tab/link is active
+      color: var(--main-bg-color) !important; // Changing the color when the tab/link is active
     }
 
 }

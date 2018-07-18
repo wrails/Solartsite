@@ -19,14 +19,22 @@ hr.light-100 {
   margin-bottom: 1rem;  
 }
 .footers:hover {
-  color: #e8c043;
+  color: var(--main-color);
 }
 .footers:focus {
-  color: #e8c043;
+  color: var(--main-color);
 }
 /*.footers:active {*/
   
 
 .footers.active {
-  color: #e8c043 !important;
+  color: var(--main-color) !important;
+}
+.footers {
+ font-weight: 300;
+}
+
+h5.solart-registered {
+    font-weight: 350 !important;
+    font-size: 1.2rem;
 }

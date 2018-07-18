@@ -1,12 +1,12 @@
 /*Logo colors
-background-color: #4e6f8ce8
-color: #e8c043
+background-color: var(--main-bg-color) logo blueish
+color: var(--main-color) logo orange   
 */
 
 h3.contacth3 {
     text-align: center !important;
     margin-top: 10%;
-    color:  #4e6f8ce8;
+    color:  var(--main-bg-color);
 }
 /*a.nav-link.active.purple {
     color: #e800ff !important;
@@ -15,7 +15,7 @@ h3.contacth3 {
   color:  #bd9412 !important;
 }
 p.contact {
-    color: #4e6f8ce8;
+    color: var(--main-bg-color);
     margin-bottom: 3rem !important; 
 }
 form#new_form_message {
@@ -30,17 +30,17 @@ form#new_form_message {
     margin-bottom: 1% !important;
     margin-top: 10% !important;
     color: #fff;
-    background-color: #4e6f8ce8 !important;
-    border-color: #4e6f8ce8 !important;
+    background-color: var(--main-bg-color) !important;
+    border-color: var(--main-bg-color) !important;
 }
 abbr[title], abbr[data-original-title] {
     text-decoration: none !important;
 }
 .simple_form label {
-    color: #4e6f8ce8 !important;
+    color: var(--main-bg-color) !important;
 }
 .form-control {
-  border-bottom: 1px solid #4e6f8ce8 !important;
+  border-bottom: 1px solid var(--main-bg-color) !important;
   border-top-color: white !important;  
   border-right-color: white !important;
   border-left-color: white !important;
@@ -56,15 +56,15 @@ display: none;
    margin-bottom: 8%;
 }
 .btn-back{
-    color: #4e6f8ce8 !important;
+    color: var(--main-bg-color) !important;
     background-color: white !important;
     background-image: none;
-    border-color: #4e6f8ce8 !important;
+    border-color: var(--main-bg-color) !important;
     margin-top: 9% !important;
 }
 
 .btn-back:hover {
-    background-color: #4e6f8ce8 !important;
+    background-color: var(--main-bg-color) !important;
     border-color: #5e4f7e;
     color : #3bff00 !important;
 }
