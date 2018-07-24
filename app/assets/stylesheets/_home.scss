@@ -232,8 +232,8 @@ hr {
 /*---Media Queries --*/
 @media (min-width: 1024px) and (orientation: landscape){
   img.About_img {
-    height: 400px;
-    width: 5000px !important;
+    height: 100%;
+    width: 100%;
   }
   .center_about {
     top: 30%;
@@ -246,9 +246,9 @@ hr {
   }
 }
 @media (min-width: 1024px) and (orientation: portrait){
-  mg.About_img {
-    height: 400px;
-    width: 5000px !important;
+  img.About_img {
+    height: 370px;
+    width: 1300px;
   }
   .center_about {
     top: 30%;
@@ -263,8 +263,8 @@ hr {
 
 @media (max-width: 1024px) and (orientation: portrait){
   img.About_img {
-    height: 370px;
-    width: 1300px;
+    height: 100%;
+    width: 100%;
   }
   .center_about {
     top: 20%;
@@ -367,8 +367,8 @@ hr {
 }
 @media (max-width: 737px)  and (orientation : landscape){
   img.About_img {
-    height: 250px;
-    width: 900px;
+    height: 100%;
+    width: 100%;
   }
   .center_about {
     top: 39%;
@@ -394,8 +394,8 @@ hr {
 
 @media (max-width: 640px)  and (orientation : landscape){
   img.About_img {
-    height: 250px;
-    width: 900px;
+    height: 100%;
+    width: 100%;
   }
   .center_about {
     top: 49%;
@@ -412,10 +412,11 @@ hr {
 }
 
 @media (max-width: 576px) and (orientation : landscape) {
-  img.About_img {
-    height: 210px;
-    width: 900px;
-  }.center_about {
+    img.About_img {
+    height: 100%;
+    width: 100%;
+  }
+  .center_about {
     top: 49%;
   }
   h1.top-banner {
@@ -435,8 +436,8 @@ hr {
 }
 @media (max-width: 414px) and (orientation : portrait) {   
   img.About_img {
-    height: 260px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
   }
   .center_about {
     top: 25%;
@@ -525,9 +526,9 @@ hr {
 }
 
 @media (max-width: 320px) and (orientation : portrait) {  
-    img.About_img {
-    height: 230px;
-    width: 500px;
+   img.About_img {
+    height: 100%;
+    width: 100%;
   }
   .center_about {
     top: 32%;
