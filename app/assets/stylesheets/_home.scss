@@ -43,7 +43,7 @@ html, body {
     top: 45%;
     left: 18%;
     transform: translate(-50%, -50%);
-    color: var(--main-color);
+    color: var(--main-black) !important;
 }
 
 
@@ -58,7 +58,9 @@ h4.top-banner {
   font-family: initial !important;
   font-size: 3.5rem;
 }
-
+a.btn.btn-jumbo.btn-lg {
+    margin-bottom: 0%;
+}
 .jumbotron {
     padding: 2rem 1rem;
     margin-bottom: 0rem !important;
@@ -90,7 +92,7 @@ h4.top-banner {
   opacity: 1;
 }
 .col-12.butaqua {
-    margin-bottom: 50px;
+ //   margin-bottom: 50px;
 }
 .col-12.spatop {
     margin-top: 7%;
@@ -100,7 +102,7 @@ p.lead.center-p {
   //margin-right: 5%;
   //margin-left: 5%;  
   font-weight: 350 !important;
-  font-size: 1.8rem !important;
+  font-size: 1.8rem;
 
 }
 .btn-jumbo {
@@ -189,7 +191,7 @@ h2.hwdsw {
     font-weight: 300 !important;
 }
 .lead.wwdi {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 /*gif*/
@@ -245,12 +247,10 @@ hr {
     top: 33% !important;
     left: 20% !important;
   }
- .banner-center {
+  .banner-center {
     position: absolute;
     top: 45%;
     left: 20% !important;
-    transform: translate(-50%, -50%);
-    color: var(--main-bg-color);
   }
   h1.top-banner {
     font-size: 4.4rem !important;
@@ -260,6 +260,11 @@ hr {
     margin-bottom: 0.5rem;
     font-family: initial !important;
     font-size: 2rem !important;
+  }
+   p.lead.center-p {
+  font-size: 1.6em;
+  margin-right: 10%;
+  margin-left: 10%;
   }
 }
 @media (min-width: 1024px) and (orientation: portrait){
@@ -274,8 +279,6 @@ hr {
     position: absolute;
     top: 45%;
     left: 20% !important;
-    transform: translate(-50%, -50%);
-    color: var(--main-bg-color);
   }
   h1.top-banner {
     font-size: 4.4rem !important;
@@ -286,8 +289,15 @@ hr {
     font-family: initial !important;
     font-size: 2rem !important;
   }
-}
 
+  p.lead.center-p {
+  font-size: 1.6em;
+  margin-right: 4%;
+  margin-left: 4%;
+  }
+    
+
+}
 @media (max-width: 1024px) and (orientation: portrait){
   img.About_img {
     height: 100%;
@@ -315,8 +325,6 @@ hr {
     position: absolute;
     top: 45%;
     left: 25% !important;
-    transform: translate(-50%, -50%);
-    color: var(--main-bg-color);
   }
   h1.top-banner {
     font-size: 4.4rem !important;
@@ -327,19 +335,18 @@ hr {
     font-family: initial !important;
     font-size: 2rem !important;
   }
-}
-@media (min-width: 1020px) {
-  p.lead.center-p {
-  font-size: 1.8em;
-  margin-right: 25%;
-  margin-left: 25%;
-  }
   p.lead.mleft {    
     margin-left: 15%;
     font-weight: 350;
-    font-size: 1.45rem;
-  }  
+    font-size: 1.4rem !important;
+  }
+  p.lead.center-p {
+  font-size: 1.45em;
+  margin-right: 10%;
+  margin-left: 10%;
+  }
 }
+
 @media (max-width: 992px) {
   .social a{
     font-size: 3.7em;
@@ -348,8 +355,8 @@ hr {
 }
 @media (max-width: 823px)  and (orientation : landscape){
   img.About_img {
-    height: 250px;
-    width: 900px;
+    height: 110%;
+    width: 105%;
   }
   .center_about {
     top: 39%;
@@ -358,8 +365,6 @@ hr {
     position: absolute;
     top: 45%;
     left: 20% !important;
-    transform: translate(-50%, -50%);
-    color: var(--main-bg-color);
   }
   h1.top-banner {
     font-size: 3.3rem !important;
@@ -399,8 +404,6 @@ hr {
     position: absolute;
     top: 45%;
     left: 20% !important;
-    transform: translate(-50%, -50%);
-    color: var(--main-bg-color);
   }
   h1.top-banner {
     font-size: 3.3rem !important;
@@ -411,6 +414,9 @@ hr {
     font-family: initial !important;
     font-size: 1.3rem !important;
   } 
+  p.lead.center-p {    
+    font-size: 1.3rem !important;
+  }
   .display-4 {
   font-size: 200%;
   }
@@ -433,18 +439,16 @@ hr {
   .banner-center {
     position: absolute;
     top: 45%;
-    left: 20% !important;
-    transform: translate(-50%, -50%);
-    color: var(--main-bg-color);
+    left: 22% !important;
   }
   h1.top-banner {
-    font-size: 3rem !important;
+    font-size: 3.2rem !important;
     line-height: 0.6 !important;
   }
   h4.top-banner {
     margin-bottom: 0.5rem;
     font-family: initial !important;
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
   } 
   .animation-element.slide-left.testimonial img {
     width: 250px;
@@ -455,14 +459,19 @@ hr {
   }
   p.lead.center-p {
     font-weight: 350 !important;
-    font-size: 1.35rem !important;
+    font-size: 1.25rem !important;
+  }
+  p.lead.mleft {
+    font-size: 1.2rem;
+  }
+  ul.ulleft {
+    font-size: 1.25rem;
   }
 }
-
 @media (max-width: 640px)  and (orientation : landscape){
   img.About_img {
     height: 100%;
-    width: 100%;
+    width: 117%;
   }
   .center_about {
     top: 49%;
@@ -471,7 +480,6 @@ hr {
     padding-top: 15% !important;
   }
 }
-
 @media (max-width: 576px) and (orientation : landscape) {
     img.About_img {
     height: 100%;
@@ -484,8 +492,6 @@ hr {
     position: absolute;
     top: 45%;
     left: 20% !important;
-    transform: translate(-50%, -50%);
-    color: var(--main-bg-color);
   }
   h1.top-banner {
     font-size: 3rem !important;
@@ -496,39 +502,40 @@ hr {
     font-family: initial !important;
     font-size: 1rem !important;
   } 
- 
+  p.lead.mleft {
+    font-size: 1.2rem;
+  }
+  ul.ulleft {
+    font-size: 1.2rem;
+}
 }
 @media (min-width: 576px) {
   .col-sm-6 {
   flex: 0 0 50%;
   max-width: 50%;
   }
-
 }
 @media (max-width: 414px) and (orientation : portrait) {   
   img.About_img {
-    height: 100%;
-    width: 100%;
+    height: 150%;
+    width: 130%;
   }
   .center_about {
     top: 25%;
   }
   .banner-center {
-      position: absolute;
-      top: 45%;
-      left: 20% !important;
-      transform: translate(-50%, -50%);
-      color: var(--main-bg-color);
-  }
-  
+    position: absolute;
+    top: 45%;
+    left: 25% !important;
+  }  
   h1.top-banner {
-    font-size: 1.6rem !important;
+    font-size: 2rem !important;
     line-height: 0.5 !important;
   }
   h4.top-banner {
     margin-bottom: 0.5rem;
     font-family: initial !important;
-    font-size: 0.7rem !important;
+    font-size: 0.9rem !important;
   }
   .lead.wwdi {
       font-size: 1.2rem;
@@ -539,7 +546,7 @@ hr {
   }
   p.lead.center-p {
     font-weight: 350 !important;
-    font-size: 1.25rem !important;
+    font-size: 1.13rem !important;
   }
   h1.wwd {
     font-size: 3rem;
@@ -548,26 +555,27 @@ hr {
   }
   p.lead.mleft {
     margin-left: 2%;
+    font-size: 1.2rem;
   }
-
+  ul.ulleft {
+    margin-left: 7%;
+    font-size: 1.1rem;
+  }
 }
 @media (max-width: 375px) and (orientation : portrait) { 
   .banner-center {
-      position: absolute;
-      top: 45%;
-      left: 20% !important;
-      transform: translate(-50%, -50%);
-      color: var(--main-bg-color);
+    position: absolute;
+    top: 45%;
+    left: 27% !important;
   }
-  
   h1.top-banner {
-    font-size: 1.6rem !important;
+    font-size: 1.9rem !important;
     line-height: 0.5 !important;
   }
   h4.top-banner {
     margin-bottom: 0.5rem;
     font-family: initial !important;
-    font-size: 0.6rem !important;
+    font-size: 0.9rem !important;
   }
   .animation-element.slide-left.testimonial img {
     width: 195px;
@@ -582,11 +590,12 @@ hr {
     font-size: 2rem;
   }
   p.lead.mleft {
-    margin-left: 2% !important; 
+    margin-left: 2% !important;
+    font-size: 1.1rem !important; 
   }
-
-
-
+  ul.ulleft {
+    font-size: 1.13rem;
+  }
 }
 @media (max-width: 366px) and (orientation : portrait) {  
   .center_about {
@@ -598,13 +607,12 @@ hr {
   } 
   p.lead.mleft {    
     margin-left: 8%;
-    //font-weight: 350;
     font-size: 1.20rem;
   }
   ul.ulleft {
-    margin-left: 15%;
+    margin-left:7%;
     font-weight: 350;
-    font-size: 1.20rem;
+    font-size: 1rem;
   }
   .lead.wwdi {
   font-size: 1.4rem;
@@ -613,37 +621,32 @@ hr {
     font-size: 1.35rem;
   }
 }
-
 @media (max-width: 320px) and (orientation : portrait) {  
    img.About_img {
     height: 100%;
-    width: 100%;
+    width: 135%;
   }
   .center_about {
     top: 32%;
   }
   banner-center {
-      position: absolute;
-      top: 45%;
-      left: 20% !important;
-      transform: translate(-50%, -50%);
-      color: var(--main-bg-color);
+    position: absolute;
+    top: 45%;
+    left: 20% !important;
   }
-  
   h1.top-banner {
-    font-size: 1.6rem !important;
-    line-height: 0.2 !important;
+    font-size: 2.3rem !important;
+    line-height: 0.5 !important;
   }
   h4.top-banner {
     margin-bottom: 0.5rem;
     font-family: initial !important;
-    font-size: 0.6rem !important;
+    font-size: 0.8rem !important;
   }
   p.lead.center-p {
-    font-size: 1.3rem !important;
+    font-size: 1.1rem !important;
   }
 }
-
 /*How we do it gradient animation element*/
 .animation-element {
   opacity: 0;
