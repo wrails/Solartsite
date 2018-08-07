@@ -48,6 +48,15 @@ abbr[title], abbr[data-original-title] {
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   //box-shadow: 0px 1px 0px 0px #ddc0ff;
 }
+
+.form-control:focus {
+    /* color: #ec0f5d; */
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgba(65, 53, 57, 0.25) !important;
+}
+
 .hidden { 
 display: none; 
 }
