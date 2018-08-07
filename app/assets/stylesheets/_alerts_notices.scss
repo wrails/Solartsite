@@ -1,5 +1,7 @@
 .alert {
     padding: 0.5rem 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 .alert-success {
     color: #062b0f;
@@ -26,7 +28,9 @@
   
 }
 @media (min-width: 1020px) {
-   
+  div#notice {
+    font-size: 115% !important
+  }
 }
 @media (max-width: 992px) {
   
@@ -69,9 +73,10 @@
 
 }
 @media (max-width: 375px) and (orientation : portrait) { 
-    .center_about {
+ /*   .center_about {
     	top: 25% !important;
-	}
+	}*/
+
 	.alert-dismissible {
     	padding-right: 2.5rem !important;
 	}

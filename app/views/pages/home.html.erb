@@ -1,13 +1,11 @@
 <% provide(:page_title, 'Home') %>
 <% provide(:home_active, 'active') %>
+    <!--<div class="center_about"> -->
+	    	<%= render 'layouts/flash_notice_alert' %>
+	    <!--</div> -->
 <div class="container-fluid about">	
 	<div class="img-fluid">	
 	    <%= image_tag "bannersolart-5.png", alt: "About", :class => "About_img" %>	
-	  <!--	<div class="layer">		
-    	</div>-->   	 
-	    <div class="center_about">
-	    	<%= render 'layouts/flash_notice_alert' %>
-	    </div>
 	    <div class="banner-center">
 	      <h1 class="top-banner"> Solart </h1> 
 	      <h4 class="top-banner"> Web applications development</h4>
